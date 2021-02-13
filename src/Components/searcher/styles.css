@@ -1,0 +1,54 @@
+.headerTop-search-time {
+    display: flex;
+    width: 50%;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerTop-searc {
+    height: 30px;
+    width: 100%;
+    background: #494f5234;
+    color: #2c3e50;
+    border: none;
+    padding: 8px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 4px white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.headerTop-searc::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #2c3e50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerTop-searc:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #2c3e50;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1/* esto es porque Firefox le reduce la opacidad por defecto */
+    ;
+}
+
+.headerTop-searc::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #2c3e50;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+}
+
+.headerTop-searc:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #2c3e50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-search {
+    color: white;
+    font-size: 30px;
+    margin-right: 5px;
+}

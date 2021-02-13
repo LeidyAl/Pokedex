@@ -10,3 +10,7 @@ h4 {
     color: #7f8c8d;
     text-transform: capitalize;
 }
+
+p {
+    width: 80%;
+}
